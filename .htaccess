@@ -1,0 +1,12 @@
+# ============================================================
+#  Redireciona todo o tráfego para a pasta public/
+#  Isso impede acesso direto às pastas app/, database/, etc
+# ============================================================
+
+Options -Indexes
+
+RewriteEngine On
+
+# Redireciona requisições da raiz para public/
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ public/$1 [L,QSA]
