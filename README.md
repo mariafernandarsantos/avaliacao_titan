@@ -55,4 +55,6 @@ Utilize os dados abaixo para logar no sistema e ver os relatórios e cadastros:
 | João Santos | `joao@jminformatica.com` | `123456` |
 
 ---
+### Observação
 
+O envio dos emails não está acontecendo como gostaria, então adicionei um arquivo de log para poder exibir a lógica do email funcionando.
